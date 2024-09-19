@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Bot Deployment</title>
+    <style>
+        body {
+            background-color: #000;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            padding: 50px 20px;
+        }
+
+        h1 {
+            margin-bottom: 40px;
+            font-size: 36px;
+            text-decoration: underline;
+        }
+
+        .deploy-button {
+            background-color: #007bff;
+            color: white;
+            padding: 15px 30px;
+            margin: 10px;
+            border: 4px solid;
+            border-radius: 10px;
+            font-size: 18px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            animation: border-color-rotate 3s infinite; /* Animation added */
+        }
+
+        .deploy-button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Keyframes for border color rotation */
+        @keyframes border-color-rotate {
+            0% {
+                border-color: red;
+            }
+            25% {
+                border-color: blue;
+            }
+            50% {
+                border-color: green;
+            }
+            75% {
+                border-color: yellow;
+            }
+            100% {
+                border-color: red;
+            }
+        }
+
+        .stars {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="stars">☆ Deployment Methods ☆</div>
+        <a href="#" class="deploy-button">Deploy on Heroku</a>
+        <a href="#" class="deploy-button">Deploy on Replit</a>
+        <a href="#" class="deploy-button">Deploy on Railway</a>
+        <a href="#" class="deploy-button">Deploy on Koyeb</a>
+    </div>
+</body>
+  </html>
